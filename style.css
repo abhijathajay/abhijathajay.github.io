@@ -1,13 +1,28 @@
 body{
   font-family: "Times New Roman";
   font-size: 20px;
-  background: red;
-  color: yellow;
+  background: teal;
+  color: black;
   text-align: left;
 }
 
+.myname
+{
+  font-family: sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white
+  background-color: black
+  width: 10px;
+  text-align: center;
+}
+
+.myname:hover{
+  color: red
+}
+
 @media only screen and (max-width: 600px) {
-  
+
 body{
    background-color: #ffffff;
   }
